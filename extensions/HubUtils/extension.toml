@@ -1,0 +1,7 @@
+id = "HubUtils"
+name = "Hub Utils"
+version = "0.0.1"
+schema_version = 1
+authors = ["hub33k <hub33k@yahoo.com>"]
+description = "HubUtils extension by hub33k"
+repository = "https://github.com/hub33k/zed-extensions/tree/master/extensions/HubUtils"
