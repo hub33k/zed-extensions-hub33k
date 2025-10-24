@@ -1,7 +1,7 @@
 mod enter;
 
-use enter::on_enter_action;
-use std::sync::Arc;
+// use enter::on_enter_action;
+// use std::sync::Arc;
 use zed_extension_api as zed;
 
 struct HubMarkdown {}

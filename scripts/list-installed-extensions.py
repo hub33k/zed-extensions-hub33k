@@ -7,8 +7,7 @@ DIR_HOME = Path.home()
 if platform.system() == "Darwin":
     DIR_ZED_ROOT = Path(DIR_HOME / "Library/Application Support/Zed")
 elif platform.system() == "Windows":
-    raise Exception("Windows not supported.")
-    # DIR_ZED_ROOT = Path(DIR_HOME / "AppData/Roaming/Zed")
+    DIR_ZED_ROOT = Path(DIR_HOME / "AppData/Local/Zed")
 else:
     raise Exception("OS not supported.")
 
