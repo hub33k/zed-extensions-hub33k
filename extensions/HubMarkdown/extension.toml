@@ -4,4 +4,12 @@ version = "0.0.1"
 schema_version = 1
 authors = ["hub33k <hub33k@yahoo.com>"]
 description = "Markdown extension by hub33k"
-repository = "https://github.com/hub33k/zed-extensions/tree/master/extensions/HubMarkdown"
+repository = "https://github.com/hub33k/zed-extensions-hub33k/tree/master/extensions/HubMarkdown"
+
+# [grammars.markdown]
+# repository = "https://github.com/tree-sitter-grammars/tree-sitter-markdown"
+# commit = "2dfd57f547f06ca5631a80f601e129d73fc8e9f0" # release v0.5.1
+
+# [language_servers.markdown]
+# name = "HubMarkdownLsp"
+# language = "markdown"
